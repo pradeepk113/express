@@ -3,12 +3,14 @@ var cookieParser=require('cookie-parser')
 var logger=require('morgan')
 
 var app=express();
+//********Middleware**************** */
 app.use(cookieParser())
 
 app.use(logger('tiny'))
 
 app.use(express.static(__dirname + "/public"))
  
+//********custom middleware******* */
 app.use((req,res,next)=>{
     console.log(req.cookies);
     next()
