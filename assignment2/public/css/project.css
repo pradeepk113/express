@@ -1,0 +1,23 @@
+.project{
+    background-color: slategray;
+    color: white;
+}
+.photo{
+    display: flex;
+    gap: 3rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.photo>img{
+    width: fit-content;
+    height: 60vh;
+    /* border:.3rem solid orangered; */
+    border-radius: 20px ;
+    margin-top: 5rem;
+}
+h1{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}

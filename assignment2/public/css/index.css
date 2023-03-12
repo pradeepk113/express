@@ -1,0 +1,23 @@
+.home{
+    background-color: orange;
+    color: red;
+}
+.photo{
+    display: flex;
+    gap: 3rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.photo>img{
+    width: 40vw;
+    height: 80vh;
+    /* border:.3rem solid orangered; */
+    border-radius: 20px ;
+    margin-top: 5rem;
+}
+h1{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
